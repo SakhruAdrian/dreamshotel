@@ -130,6 +130,10 @@ if (!isset($_SESSION['status_login']) OR empty($_SESSION['status_login']))
                         <div class="room-rent">
                             <h6>Rp <?php echo $d['harga'];?> / <label>Malam</label></h6>
                         </div>
+                        <div class="room-name">
+                            <h3><?php echo $d['fasilitas'];?></a></h3>
+                        </div>
+                        <br>
                         <div class="room-book">
                             <a href="booking.php?jenis=<?= $d['id']?>" class="book_now">Pesan Sekarang</a>
                         </div>
