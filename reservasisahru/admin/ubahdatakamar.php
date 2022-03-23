@@ -156,7 +156,8 @@
                                     $i = $row['id'];
                                     $jenis = $row['jenis'];
                                     $jumlah = $row['jumlah'];
-                                    $harga = $row['harga'];    
+                                    $harga = $row['harga'];
+                                    $fasilitas = $row['fasilitas'];    
                                 ?>
                                 <div id="pay-invoice">
                                     <div class="card-body">
@@ -176,6 +177,10 @@
                                                 <div class="form-group">
                                                     <label for="cc-number" class="control-label mb-1">Harga</label>
                                                     <input id="cc-number" name="harga" type="tel" class="form-control" value="<?php echo "$harga"; ?>">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="cc-number" class="control-label mb-1">Fasilitas</label>
+                                                    <input id="cc-number" name="fasilitas" type="tel" class="form-control" value="<?php echo "$fasilitas"; ?>">
                                                 </div>
                                                 <div>
                                                      <input name="id" value="<?php echo "$i"; ?>" type="hidden">

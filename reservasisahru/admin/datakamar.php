@@ -145,6 +145,7 @@
                                             <th scope="col">Jenis Kamar</th>
                                             <th scope="col">Jumlah</th>
                                             <th scope="col">Harga</th>
+                                            <th scope="col">Fasilitas</th>
                                             <th scope="col">Opsi</th>
                                         </tr>
                                     </thead>
@@ -160,6 +161,7 @@
                                                 <td><?php echo $d['jenis'];?></td>
                                                 <td><?php echo $d['jumlah'];?></td>
                                                 <td><?php echo $d['harga'];?></td>
+                                                <td><?php echo $d['fasilitas'] ?></td>
                                                 <td>
                                                 <a class="btn btn-success" href="ubahdatakamar.php?id=<?= $d['id']?>">Edit</a> 
                                             </td>
